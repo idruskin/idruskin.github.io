@@ -5,7 +5,7 @@ font-family: sans-serif;
 }
 
 body{
-background: #FFFFFF:
+background: #000:
 }
 
   .container {
@@ -15,7 +15,7 @@ background: #FFFFFF:
   align-items: center; 
   width: 100%;
   height: 100vh;
-  background: 	#FFFFFF; 
+  background: 	#000; 
   animation: disapear 3s ease-in-out 
 }  
 
