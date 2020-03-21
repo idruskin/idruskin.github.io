@@ -24,7 +24,7 @@ display:block;
 
 .text1{
 color:white;
-font-size: 60px;
+font-size: 100px;
 font-weight: 700;
 letter-spacing: 8px;
 margin-bottom: 100px;
@@ -33,8 +33,8 @@ position: relative;
 animation: text 3s 1;
 }
 .text2{
-font-size: 30 px;
-color: #6ab04c;
+font-size:  70px;
+color: #ff99cc;
 }
 
 @keyframes text{
