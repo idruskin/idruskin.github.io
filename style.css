@@ -8,6 +8,7 @@ body{
 background: #000:
 }
 
+/*
   .container {
   position: absolute; 
   display: flex; 
@@ -17,16 +18,16 @@ background: #000:
   height: 100vh;
   background: 	#000; 
   animation: disapear 3s ease-in-out 
-}  
+}  */
 
-/* .container{
+ .container{
 text-align: center;
 position: absolute;
 top: 50%;
 left:50%;
 transform: translate(-50%, -50%);
 width: 100%;
-} */
+} 
 
 .container span{
 text-transform: uppercase;
@@ -71,26 +72,26 @@ margin-bottom: -40px;
 }
 } 
 
-/* .btn {
+.btn {
   border: none;
   background-color: #eee;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
-} */
+} 
 
 /* On mouse-over */
-/* .btn:hover {background: #eee;}
+ .btn:hover {background: #eee;}
 
 .button {color: #ff99cc;}
 
 .button:hover {
     background-color: #eee;
     color: 	#404040;
-} */ 
+}  
 
-@keyframes disapear {
+/* @keyframes disapear {
 0% {
 opacity: 1
 }
@@ -101,3 +102,4 @@ opacity: 1
 opaciy: 0
 }
 } 
+ */
