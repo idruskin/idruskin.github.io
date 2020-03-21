@@ -8,7 +8,17 @@ body{
 background: #000:
 }
 
-.container{
+.container {
+  position: absolute; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+  height: 100vh;
+  background: #000; 
+  animation: disapear 5s ease-in-out }
+
+/* .container{
 text-align: center;
 position: absolute;
 top: 50%;
@@ -20,7 +30,7 @@ width: 100%;
 .container span{
 text-transform: uppercase;
 display:block;
-}
+} */
 
 .text1{
 color:white;
@@ -45,7 +55,7 @@ color: #ff99cc;
   width: 50%;
 }
 
-
+/* 
 @keyframes text{
 0%{
 color:black;
@@ -58,5 +68,17 @@ margin-bottom: -40px;
 85%{
 letter-spacing: 8px;
 margin-bottom: -40px;
+}
+} */
+
+@keyframes disapear {
+0% {
+opacity: 1
+}
+80% {
+opacity: 1
+}
+100% {
+opaciy: 0
 }
 }
