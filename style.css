@@ -32,10 +32,19 @@ background: black;
 position: relative;
 animation: text 3s 1;
 }
+
 .text2{
 font-size:  35px;
 color: #ff99cc;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 @keyframes text{
 0%{
