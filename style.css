@@ -71,6 +71,20 @@ margin-bottom: -40px;
 }
 } 
 
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.button {color: #ff99cc;}
+
 /* @keyframes disapear {
 0% {
 opacity: 1
