@@ -70,13 +70,13 @@ margin-bottom: -40px;
 } 
 
 /* On mouse-over */
- .btn:hover {background: #000;}
+ .btn:hover {background: #FFFFFF;}
 
-.button {color: #000;}
+.button {color: #FFFFFF;}
 
 .button:hover {
-    background-color: #000;
-    color: 	#000;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
 }  
 
 @keyframes disapear {
