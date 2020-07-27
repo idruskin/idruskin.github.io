@@ -62,7 +62,7 @@ margin-bottom: -40px;
 
 .btn {
   border: none;
-  background-color: #eee;
+  background-color: #FFFFFF;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -70,7 +70,7 @@ margin-bottom: -40px;
 } 
 
 /* On mouse-over */
- .btn:hover {background: #FFFFFF;}
+ .btn:hover {background: #eee;}
 
 .button {color: #FFFFFF;}
 
