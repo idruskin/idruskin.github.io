@@ -18,4 +18,44 @@ body {
 	}
   h1 { font-family: "Playfair Display"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Playfair Display"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Playfair Display"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Playfair Display"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Playfair Display"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; color: white; }
 }
+body {
+	background: linear-gradient(-45deg, #f08ab1, #bde4f2);
+	
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: white;
+}
+
+h1 { font-family: "Playfair Display"; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+  h2 { font-family: "Playfair Display"; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+  h3 { font-family: "Playfair Display"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
+  p { font-family: "Playfair Display"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+  blockquote { font-family: "Playfair Display"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
+  pre { font-family: "Playfair Display"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; color: white; }
  
