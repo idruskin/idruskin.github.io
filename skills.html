@@ -7,59 +7,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel = "stylesheet" href = "style.css">
 <style>
-	.navbar {
-  overflow: hidden;
+body {
+	background: linear-gradient(-45deg, #f08ab1, #bde4f2);
+	
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
 }
 
-
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
-
-
-.navbar a.right {
-  float: right;
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:20px
 }
-
-.navbar a:hover {
-  color: black;
+.nav li{
+    display:inline;
 }
-
-	<div class="d-flex flex-column justify-content-center w-100 h-100">
-
-	<div class="d-flex flex-column justify-content-center align-items-center">
-</div>
-</div>
-* {
-  box-sizing: border-box;
-}
-
-
-
-.row {  
-  display: -ms-flexbox; 
-  display: flex;
-  -ms-flex-wrap: wrap; 
-  flex-wrap: wrap;
-}
-
-
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: white;
 }
 </style>
 	
@@ -73,4 +53,10 @@
    <div style="float:right; color:white;" > <font size = "30" >DRUSKIN </font> </div>
 </ul>
 </head>
+	<center>
+  <body>
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTAgP1PJ8UQ8PMhzPW--K9mdzWW3QX2sFvkMIBVx2I7KElDbfOWWlkvF0p88lWPCvQPqfJKSVK45dAS/pub?embedded=true" width="1000px" height="500px">
+    </iframe>
+  </body>
+  </center> 
 </html>
